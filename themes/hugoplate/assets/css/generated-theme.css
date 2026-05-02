@@ -26,22 +26,22 @@
   --color-darkmode-text-light: #B4AFB6;
 
   /* === Font Families === */
-  --font-primary: Heebo, sans-serif;
-  --font-secondary: Signika, sans-serif;
+  --font-primary: Manrope, sans-serif;
+  --font-secondary: Manrope, sans-serif;
 
   /* === Font Sizes === */
   --text-base: 16px;
   --text-base-sm: 12.8px;
-  --text-h6: 1.2rem;
-  --text-h6-sm: 1.08rem;
-  --text-h5: 1.44rem;
-  --text-h5-sm: 1.296rem;
-  --text-h4: 1.728rem;
-  --text-h4-sm: 1.5552rem;
-  --text-h3: 2.0736rem;
-  --text-h3-sm: 1.86624rem;
-  --text-h2: 2.48832rem;
-  --text-h2-sm: 2.239488rem;
-  --text-h1: 2.9859839999999997rem;
-  --text-h1-sm: 2.6873856rem;
+  --text-h6: 1.18rem;
+  --text-h6-sm: 1.062rem;
+  --text-h5: 1.3923999999999999rem;
+  --text-h5-sm: 1.2531599999999998rem;
+  --text-h4: 1.6430319999999998rem;
+  --text-h4-sm: 1.4787287999999998rem;
+  --text-h3: 1.9387777599999998rem;
+  --text-h3-sm: 1.744899984rem;
+  --text-h2: 2.2877577567999996rem;
+  --text-h2-sm: 2.0589819811199996rem;
+  --text-h1: 2.6995541530239993rem;
+  --text-h1-sm: 2.4295987377215993rem;
 }

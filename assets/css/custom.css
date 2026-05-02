@@ -1,5 +1,19 @@
 /* Add your own custom styles here */
 
+.header .navbar-brand {
+  font-family: "Aldrich", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+/* Display headings: light. Smaller headings: bold for contrast vs body. */
+h1, h2, h3, .h1, .h2, .h3 {
+  font-weight: 400 !important;
+}
+h4, h5, h6, .h4, .h5, .h6 {
+  font-weight: 600 !important;
+}
+
 /* Override Hugoplate's near-white bg-gradient with the same light blue
    used in the footer/CTA so all "tinted" sections stay on-brand. */
 .bg-gradient {
