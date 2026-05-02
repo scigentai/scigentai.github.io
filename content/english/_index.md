@@ -1,51 +1,73 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jump-start your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: "Accelerating Health and Life Sciences Research with AI Agents"
+  content: "Scigent is an open-source agentic platform that integrates validated scientific tools, published literature, and researcher oversight, turning general-purpose AI models into trustworthy scientific collaborators."
+  image: "/images/scigent.png"
   button:
-    enable: true
-    label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate"
+    enable: false
+    label: ""
+    link: ""
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "The Rate-Limiting Step in Modern Science"
+    image: "/images/platforms.svg"
+    content: "Even expert researchers can engage with only a fraction of the data, literature, and tools relevant to their work. General-purpose AI coding assistants generate scripts but lack the scientific grounding to meaningfully accelerate discovery."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Vast volumes of scattered data, tools, and literature slow discovery from depression's neural signatures to genomic variant interpretation."
+      - "AI agents without grounding hallucinate parameters and duplicate effort."
+      - "The result: months-long timelines from raw data to advanced analysis."
     button:
       enable: false
-      label: "Get Started Now"
-      link: "#"
+      label: ""
+      link: ""
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "How Scigent Works"
+    video:
+      poster: "/videos/neurodesk.jpeg"
+      webm: "/videos/neurodesk.webm"
+      mp4: "/videos/neurodesk.mp4"
+    content: "Scigent combines agentic AI with a validated research ecosystem. Researchers and agents collaborate to plan and execute end-to-end scientific analyses, with the researcher in control at every step. From neuroscience biomarkers to rare-variant interpretation to tissue-level disease mechanisms, full pipelines come together in days instead of weeks."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "**Skill files** encode domain knowledge and parameter constraints to steer agents toward valid workflows."
+      - "**Validated tool registry** built on 200+ containerised scientific tools."
+      - "**Literature grounding** via published evidence and DOIs."
+      - "**Full provenance** and reproducibility built in by default."
+      - "**Model-agnostic** — wraps commercial and open-source LLMs as they evolve."
+      - "**Runs anywhere** — laptop, hosted research, or partner infrastructure."
+    button:
+      enable: false
+      label: ""
+      link: ""
+
+  - title: "Built on Neurodesk"
+    image: "/images/neurodesk-logo.svg"
+    content: "Scigent extends [Neurodesk](https://neurodesk.org), our open-source platform for biomedical imaging analysis, published in Nature Methods. Neurodesk provides the validated tool foundation Scigent builds on."
+    bulletpoints:
+      - "200+ containerised, version-pinned scientific tools."
+      - "3,800 monthly users across 100+ countries, with several institutional deployments underway in 2026."
+      - "Australian iAwards 2025 winner — Best Technology Platform."
+      - "Backed by $2.5M+ AUD from ARDC, CZI, Wellcome Trust, and NIF."
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Visit Neurodesk"
+      link: "https://neurodesk.org"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Measuring What Matters"
+    terminal:
+      steps: 180
+      text: |
+        $ scigent run "cortical thickness from this BIDS dataset" <br/>
+        planning pipeline... 3 tools, 7 steps <br/>
+        executing with claude-sonnet-4 in fmriprep container <br/>
+        ✓ pipeline complete &nbsp;&nbsp;tokens -50% &nbsp;compute -20%
+    content: "We co-develop [Terminal Bench Science](https://www.tbench.ai/news/tb-science-announcement) with Stanford and the Laude Institute as the primary benchmark for scientific AI agents. Early results across 20 neuroimaging workflows show meaningful efficiency gains."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "**20% reduction** in compute across benchmarked workflows."
+      - "**50% reduction** in token usage."
+      - "Systematic evaluation across commercial and open-source models."
+      - "Openly released benchmark suite as a community reference."
     button:
       enable: false
       label: ""

@@ -11,23 +11,23 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Hugoplate"
+logo_text = "Scigent"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
-theme_switcher = true
-theme_default = "system" # available options [light/dark/system]
+theme_switcher = false
+theme_default = "light" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "mailto:scigetorg@gmail.com" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+copyright = "Built by the [Neurodesk](https://neurodesk.org)/[Sciget](https://sciget.org) team at the [University of Queensland](https://www.uq.edu.au)."
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -39,7 +39,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Github"
-link = "https://github.com/zeon-studio/hugoplate"
+link = "https://github.com/scigentai"
 
 [llms]
 # Set to false to disable /llms.txt generation
@@ -57,9 +57,9 @@ exclude = []
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = []
 show_image = true
 show_description = true
 show_tags = true
@@ -68,17 +68,17 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = true
+enable = false
 expire_days = 7
-content = "<span class='text-center block'>♥️ Loving Hugoplate? <a class='underline' href='https://github.com/zeon-studio/hugoplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>"
+content = ""
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-twitter = "zeon_studio"
+keywords = ["Scigent", "AI agents", "scientific computing", "Neurodesk", "biomedical imaging", "open science"]
+description = "Scigent is an open-source agentic platform that grounds AI agents in validated scientific tools and published literature, accelerating health and life sciences research."
+author = "Scigent"
+twitter = ""
 image = "images/og-image.png"
 
 
