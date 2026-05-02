@@ -315,6 +315,8 @@
       "xl:block",
       "xl:hidden",
       "xl:p-20",
+      "xl:pb-8",
+      "xl:pt-16",
       "xl:space-x-8",
       "z-30",
       "z-50",

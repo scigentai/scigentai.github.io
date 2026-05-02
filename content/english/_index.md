@@ -3,7 +3,7 @@
 banner:
   title: "Accelerating Health and Life Sciences Research with AI Agents"
   content: "Scigent is an open-source agentic platform that integrates validated scientific tools, published literature, and researcher oversight, turning general-purpose AI models into trustworthy scientific collaborators."
-  image: "/images/scigent.png"
+  image: "/images/scigent-logo-only.png"
   button:
     enable: false
     label: ""

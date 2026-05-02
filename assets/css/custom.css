@@ -1,5 +1,33 @@
 /* Add your own custom styles here */
 
+/* Override Hugoplate's near-white bg-gradient with the same light blue
+   used in the footer/CTA so all "tinted" sections stay on-brand. */
+.bg-gradient {
+  background-image: linear-gradient(to bottom, #eef2f9 0.53%, #fff 83.28%) !important;
+}
+
+/* Dark navy header sampled from the logo (#304060) */
+.header {
+  background-color: #304060;
+}
+.header .navbar-brand,
+.header .nav-link {
+  color: #ffffff !important;
+}
+/* Mobile hamburger icon */
+.header label[for="nav-toggle"] {
+  color: #ffffff !important;
+}
+.header .btn-outline-primary {
+  background-color: transparent;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
+}
+.header .btn-outline-primary:hover {
+  background-color: #ffffff;
+  color: #304060 !important;
+}
+
 /* Fake terminal animation (adapted from neurodesk.org) */
 .fake-terminal {
   max-width: 460px;
