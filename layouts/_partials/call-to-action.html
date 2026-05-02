@@ -16,13 +16,14 @@
               <p class="mb-6">
                 {{ .Params.description | markdownify }}
               </p>
-              {{ with .Params.button }}
-                {{ if .enable }}
-                  <a class="btn btn-primary" href="{{ .link | absURL }}">
+              <div class="flex flex-wrap gap-3">
+                {{ range .Params.buttons }}
+                  <a class="btn {{ .style | default "btn-primary" }}" href="{{ .link | absURL }}"
+                    {{ if hasPrefix .link "http" }}target="_blank" rel="noopener"{{ end }}>
                     {{ .label }}
                   </a>
                 {{ end }}
-              {{ end }}
+              </div>
             </div>
           </div>
         </div>

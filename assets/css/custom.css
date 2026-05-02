@@ -6,9 +6,38 @@
   font-size: 1.5rem;
 }
 
+/* Make footer links pop against the muted body text */
+footer a {
+  color: #304060;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #b0b8c8;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+footer a:hover {
+  color: #1a2540;
+  text-decoration-color: #304060;
+}
+
+/* Constrain Neurodesk SVG logo in the "Built on Neurodesk" feature */
+img[src*="neurodesk-logo"] {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 /* Display headings: light. Smaller headings: bold for contrast vs body. */
 h1, h2, h3, .h1, .h2, .h3 {
   font-weight: 400 !important;
+}
+/* Hero title heavier than section headings */
+h1, .h1 {
+  font-weight: 500 !important;
 }
 h4, h5, h6, .h4, .h5, .h6 {
   font-weight: 600 !important;
